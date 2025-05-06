@@ -8,6 +8,18 @@ requirements = []
 path = "contracts/affiliate.clar"
 depends_on = []
 
+[contracts.affiliate-leaderboard]
+path = "contracts/affiliate-leaderboard.clar"
+depends_on = []
+
+[contracts.payout-manager]
+path = "contracts/payout-manager.clar"
+depends_on = []
+
+[contracts.product-manager]
+path = "contracts/product-manager.clar"
+depends_on = []
+
 [repl]
 costs_version = 2
 parser_version = 2
